@@ -1,0 +1,146 @@
+@media (max-width: 650px) {
+    #nav-bar {
+      flex-direction: column;
+    }
+    #header-link-div {
+      flex-direction: column;
+    }
+    #search {
+      padding: 100px 0 0 0;
+    }
+    #pricing {
+       flex-direction: column;
+      align-items: center;
+    }
+  }
+  body {
+    background-color: #e0e0e0;
+    color: black;
+    font-family: Lato, sans-serif;
+    font-size: 15px;
+  }
+  h2 {
+      font-size: 1.5rem;
+    }
+  #nav-bar {
+    position: fixed;
+    top: 0;
+    right:0;
+    left:0;
+    display: flex;
+    align-items: center;
+    padding: 20px 20px 0 20px;
+    background-color: #e0e0e0;
+  }
+  #header-img-div {
+    display: flex;
+    flex:2 2;
+    justify-content: flex-start;
+  }
+  #header-img {
+    width: 300px;
+  }
+  #header-link-div {
+    display: flex;
+    flex: 1 1;
+   justify-content: space-around;
+  }
+  a {
+    text-decoration: none;
+    color: black;
+  }
+  #search {
+    text-align: center;
+    margin: 100px 0 0 0;
+  }
+  #email {
+    height: 25px;
+    width: 250px;
+  }
+  #submit {
+    border: 0px;
+    border-radius: 2px;
+    background-color: #faa702;
+    padding: 5px 10px;
+    margin: 20px;
+    font-weight:900; 
+  }
+  #features {
+    display: flex;
+    margin: 40px auto;
+    justify-content: center;
+  }
+  table {
+    width: 850px;
+    height: auto;
+    line-height: 1.2;
+    
+  }
+  .logo {
+    color: #faa702;
+    padding-right: 40px;
+  }
+  table tr td p {
+    margin-top: 0px;
+  }
+  table tr td h2 {
+    margin-bottom: 0px;
+  }
+  #how {
+    display: flex;
+    justify-content: center;
+    margin: 60px auto;
+  }
+  #pricing {
+    display: flex;
+    justify-content: center; 
+  }
+  #card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 300px;
+    height: auto;
+    border: 1px solid;
+    text-align: center;
+    margin: 10px 10px;
+  }
+  #card button {
+    border: 0px;
+    border-radius: 2px;
+    background-color: #faa702;
+    padding: 10px 20px;
+    margin: 20px;
+    font-size: 1.2rem;
+    font-weight: 50; 
+  }
+  #card h3 {
+    margin-top:0;
+    padding: 10px 20px;
+    background-color: #c2c2c2;
+  }
+  #footer {
+    display: flex;
+    flex-direction: column;
+    width:80%;
+    height: auto;
+    background-color: #c2c2c2;
+    margin: 35px auto 0;
+  }
+  .footer-link {
+    display: flex; 
+    justify-content: end;
+  }
+  .footer-link p {
+    margin: 20px 20px 0 0 ;
+  }
+  .footer-text {
+    display: flex; 
+    justify-content: end;
+    font-size: 0.9rem;
+    color: #444;
+  }
+  .footer-text p {
+    margin: 10px 15px 10px 0; 
+  }
+  
